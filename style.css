@@ -1,0 +1,21 @@
+body
+{
+    background-color: /*#121212*/ #181818 /*#1e1e1e*/;
+}
+
+#navbar
+{
+    color: #BB86FC;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#name
+{
+    padding:140px;
+    font-size: 40px;
+}
+
+#links
+{
+    padding-left: 700px;
+}
