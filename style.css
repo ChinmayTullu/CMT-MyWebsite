@@ -6,15 +6,16 @@ body
 #navbar
 {
     color: #BB86FC;
-    font-family:Arial, Helvetica, sans-serif;
-    padding-left: 40px;
-    padding-top: 40px;
+    font-family: 'Times New Roman', Times, serif; /*'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    margin-left: 40px;
+    margin-top: 40px;
+    
 }
 
 #name
 {
-    padding:140px;
-    padding-right: 840px;
+    margin:140px;
+    margin-right: 840px;
     font-size: 40px;
     font-weight: bold;
 }
@@ -23,6 +24,16 @@ body
 {
     text-decoration: none;
     color: white;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 25px;;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+    border-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.navimglinks
+{
+    height: 5px;
+    width: 5px;
+    margin-left: 55px;
 }
