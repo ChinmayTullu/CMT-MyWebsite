@@ -7,15 +7,22 @@ body
 {
     color: #BB86FC;
     font-family:Arial, Helvetica, sans-serif;
+    padding-left: 40px;
+    padding-top: 40px;
 }
 
 #name
 {
     padding:140px;
+    padding-right: 840px;
     font-size: 40px;
+    font-weight: bold;
 }
 
-#links
+#linkresume
 {
-    padding-left: 700px;
+    text-decoration: none;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;;
 }
