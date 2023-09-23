@@ -8,15 +8,16 @@ body
     color: #BB86FC;
     font-family: 'Times New Roman', Times, serif; /*'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
     margin-left: 40px;
-    margin-top: 40px;
+    margin-top: 32px;
     
 }
 
 #name
 {
-    margin:140px;
+    margin: 140px;
     margin-right: 840px;
-    font-size: 40px;
+    margin-left: 185px;
+    font-size: 46px;
     font-weight: bold;
 }
 
@@ -37,3 +38,72 @@ body
     width: 5px;
     margin-left: 55px;
 }
+
+#sentence
+{
+    display: inline;
+    color: white;
+    /*display: flex;*/
+    font-size: 100px;
+    height: 100px;
+    padding-top: 100px;
+    margin-left: 70px;
+}
+
+#rainbow
+{
+    animation: colorChange 28s linear infinite;
+}
+
+@keyframes colorChange 
+{
+    0% {
+        color: red;
+    }
+    12% {
+        color: orange;
+    }
+    24% {
+        color: yellow;
+    }
+    36% {
+        color: green;
+    }
+    48% {
+        color: blue;
+    }
+    60% {
+        color: indigo;
+    }
+    72% {
+        color: violet;
+    }
+    84%
+    {
+        color: #FF00FF 
+    }
+    96%
+    {
+        color: #ff0033;
+    }
+    100%
+    {
+        color:red;
+    }
+}
+
+#lastword
+{
+    color: white;
+    /*display: flex;*/
+    font-size: 100px;
+    height: 100px;
+    margin-left: 70px;
+}
+
+#programmer
+{
+    display: inline-block;
+    text-align: end;
+}
+
