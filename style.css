@@ -39,71 +39,57 @@ body
     margin-left: 55px;
 }
 
+#startingpage
+{
+    display: flex;
+}
+
 #sentence
 {
-    display: inline;
     color: white;
-    /*display: flex;*/
     font-size: 100px;
-    height: 100px;
     padding-top: 100px;
-    margin-left: 70px;
+    margin-left: 160px;
+    text-align: start;
 }
 
 #rainbow
 {
-    animation: colorChange 28s linear infinite;
+    animation: colorChange 13s linear infinite;
 }
 
 @keyframes colorChange 
 {
     0% {
-        color: red;
+        color: rgb(255, 0, 0);
     }
-    12% {
+    14% {
         color: orange;
     }
-    24% {
+    28% {
         color: yellow;
     }
-    36% {
+    42% {
         color: green;
     }
-    48% {
-        color: blue;
+    56% {
+        color: cyan;
     }
-    60% {
-        color: indigo;
+    70% {
+        color: rgb(128, 0, 130);
     }
-    72% {
+    84% {
         color: violet;
-    }
-    84%
-    {
-        color: #FF00FF 
-    }
-    96%
-    {
-        color: #ff0033;
     }
     100%
     {
-        color:red;
+        color: #ff003c 
     }
-}
-
-#lastword
-{
-    color: white;
-    /*display: flex;*/
-    font-size: 100px;
-    height: 100px;
-    margin-left: 70px;
 }
 
 #programmer
 {
-    display: inline-block;
-    text-align: end;
+    margin-left: 260px;
+    margin-top: 58px;
 }
 
