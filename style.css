@@ -123,3 +123,41 @@ body
     cursor: pointer;
     padding: 0;
 }
+
+@media (max-width: 768px) {
+    #navbar {
+        text-align: center;
+        margin: 0;
+    }
+
+    #name {
+        margin: 0;
+    }
+
+    .navimglinks {
+        margin-left: 20px;
+    }
+
+    #startingpage {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    #sentence {
+        font-size: 40px;
+    }
+
+    #programmer img {
+        height: auto;
+        max-width: 90%;
+    }
+
+    #profession {
+        font-size: 24px;
+    }
+
+    .projectsbutton {
+        margin-top: 20px;
+    }
+}
+
