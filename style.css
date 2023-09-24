@@ -47,7 +47,7 @@ body
 #sentence
 {
     color: white;
-    font-size: 100px;
+    font-size: 105px;
     padding-top: 100px;
     margin-left: 160px;
     text-align: start;
@@ -91,5 +91,36 @@ body
 {
     margin-left: 260px;
     margin-top: 58px;
+    color: white;
 }
 
+#profession
+{
+    margin-left: 160px;
+    font-size: 28px;
+}
+
+.projectsbutton
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+#projectsbuttontext
+{
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+#projectsbuttonsymbol
+{
+    display: inline-block;
+    font-size: 20px;
+    background-color: #181818;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
