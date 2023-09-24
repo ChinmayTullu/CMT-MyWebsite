@@ -96,7 +96,7 @@ body
 #profession
 {
     margin-left: 160px;
-    font-size: 28px;
+    font-size: 29px;
 }
 
 .projectsbutton
@@ -110,7 +110,7 @@ body
 #projectsbuttontext
 {
     color: #BB86FC;
-    font-size: 22px;
+    font-size: 25px;
     background-color: transparent;
 }
 
@@ -123,7 +123,7 @@ body
     padding: 0;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     #navbar {
         text-align: center;
         margin: 0;
@@ -158,5 +158,19 @@ body
     .projectsbutton {
         margin-top: 20px;
     }
-} */
+}
+
+@media (max-width: 480px) {
+    #sentence {
+        font-size: 24px;
+    }
+
+    #profession {
+        font-size: 18px;
+    }
+
+    #programmer img {
+        max-width: 100%;
+    }
+}
 
