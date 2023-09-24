@@ -54,6 +54,7 @@ body
 
 #rainbow
 {
+    display: inline;
     animation: colorChange 13s linear infinite;
 }
 
@@ -95,7 +96,7 @@ body
 
 #profession
 {
-    margin-left: 160px;
+    margin-left: 40px;
     font-size: 29px;
 }
 
@@ -143,6 +144,44 @@ body
     }
 
     #sentence {
+        font-size: 20px;
+    }
+
+    #programmer img {
+        height: auto;
+        max-width: 40%;
+    }
+
+    #profession {
+        font-size: 16px;
+    }
+
+    .projectsbutton {
+        margin-top: 10px;
+    }
+}
+
+/* @media (max-width: 480px) {
+    #navbar {
+        text-align: center;
+        margin: 0;
+    }
+
+    #name {
+        margin: 0;
+        font-size: 10px;
+    }
+
+    .navimglinks {
+        margin-left: 20px;
+    }
+
+    #startingpage {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    #sentence {
         font-size: 40px;
     }
 
@@ -158,19 +197,5 @@ body
     .projectsbutton {
         margin-top: 20px;
     }
-}
-
-@media (max-width: 480px) {
-    #sentence {
-        font-size: 24px;
-    }
-
-    #profession {
-        font-size: 18px;
-    }
-
-    #programmer img {
-        max-width: 100%;
-    }
-}
+} */
 
