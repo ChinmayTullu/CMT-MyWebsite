@@ -96,8 +96,14 @@ body
 
 #profession
 {
+    color: #BB86FC;
     margin-left: 40px;
     font-size: 29px;
+}
+
+#multiplewords
+{
+    color: white;
 }
 
 .projectsbutton
